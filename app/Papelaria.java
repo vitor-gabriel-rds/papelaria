@@ -2,25 +2,6 @@ package app;
 
 import model.ItemPedido;
 
-/*
- * RESPOSTAS DO EXERCICIO
- *
- * a) Qual bloco esta repetido?
- *    O bloco que calcula o bruto, o desconto (if / else if / else), o
- *    liquido e imprime a linha com printf. Ele aparecia 4 vezes, uma
- *    para cada item, mudando so o numero da variavel.
- *
- * b) Quais variaveis estao numeradas?
- *    descricao1..4, valor1..4, qtd1..4, kit1..4, bruto1..4,
- *    abatimento1..4 e liquido1..4.
- *
- * c) Quais numeros magicos existem e o que significam?
- *    0.15  -> 15% de desconto para kit   (DESCONTO_KIT)
- *    0.08  -> 8% de desconto por quantidade (DESCONTO_QUANTIDADE)
- *    10    -> quantidade minima para ganhar o desconto de 8%
- *    150.0 -> valor minimo dos itens para ter frete gratis
- *    12.90 -> valor do frete quando nao e gratis
- */
 public class Papelaria {
 
     private static final double VALOR_MINIMO_FRETE_GRATIS = 150.0;
